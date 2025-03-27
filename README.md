@@ -8,12 +8,17 @@
 
 ### 安装
 #### A) 自行编译(保持最新特性)
-
+Linux
 ```
 git clone https://github.com/mogumc/AnimeGamePS.git
 cd AnimeGamePS
-go env .
-go build
+bash build.sh
+```
+Windows
+```
+git clone https://github.com/mogumc/AnimeGamePS.git
+cd AnimeGamePS
+.\build.bat
 ```
 #### B) 使用预编译版本
 访问我们的 [Releases](https://github.com/mogumc/AnimeGamePS/releases) 页面并下载符合您系统的最新版本.  
